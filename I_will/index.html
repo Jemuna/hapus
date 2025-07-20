@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nestify</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <!-- Top Header -->
+    <div class="navbar-top">
+      <div class="container d-flex justify-content-between align-items-center flex-wrap">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="d-flex align-items-center me-4">
+            <i class="fas fa-envelope text-white me-1"></i>
+            <a href="mailto:info@nestify.com">info@nestify.com</a>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="fas fa-phone text-white me-1"></i>
+            <a href="tel:+0112346789">+01-1234-6789</a>
+          </div>
+        </div>
+        <div class="d-flex social-icons">
+          <a class="text-white me-3" href="#"><i class="fab fa-facebook-square"></i></a>
+          <a class="text-white me-3" href="#"><i class="fab fa-instagram"></i></a>
+          <a class="text-white" href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <img src="./images/nestity.jpg" alt="logo" width="30" height="24"
+          class="d-inline-block align-text-top">
+        <a class="navbar-brand" href="#">Nestify</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!-- Home -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <!-- Hosting -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="hostingDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Hosting</a>
+              <ul class="dropdown-menu" aria-labelledby="hostingDropdown">
+                <li><a class="dropdown-item" href="#">Shared Hosting</a></li>
+                <li><a class="dropdown-item" href="#">VPS Hosting</a></li>
+                <li><a class="dropdown-item" href="#">Cloud Hosting</a></li>
+              </ul>
+            </li>
+            <!-- Domain -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Domain</a>
+            </li>
+            <!-- WHMCS -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="whmcsDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">WHMCS</a>
+              <ul class="dropdown-menu" aria-labelledby="whmcsDropdown">
+                <li><a class="dropdown-item" href="#">Billing</a></li>
+                <li><a class="dropdown-item" href="#">Automation</a></li>
+              </ul>
+            </li>
+            <!-- Pages -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Pages</a>
+              <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</body>
+</header>
+
+<!--Carousel-Hero Section-->
+
+<div class="div2">
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <section class="hero-section d-flex align-items-center"
+          style="background: url('./images/carousel5.jpg') no-repeat center center/cover; height: 100vh;">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6"></div>
+              <div class="col-md-5 px-5 py-5 offset-md-1 text-content">
+                <h1 class="display-5 fw-bold text-primary">Experience hosting that goes beyond limits</h1>
+                <p class="lead text-dark">Experience unmatched performance, reliability, and security with our
+                  enterprise-grade dedicated hosting solutions.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <section class="hero-section d-flex align-items-center"
+          style="background: url('./images/carousel6.jpg') no-repeat center center/cover; height: 100vh;">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6"></div>
+              <div class="col-md-5 offset-md-1 text-content">
+                <h1 class="display-5 fw-bold text-primary">Reliable Hosting Infrastructure</h1>
+                <p class="lead text-dark">Harness the power of high-performance servers tailored to your growing
+                  business needs.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <section class="hero-section d-flex align-items-center"
+          style="background: url('./images/img2.webp') no-repeat center center/cover; height: 100vh;">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6"></div>
+              <div class="col-md-5 offset-md-1 text-content">
+                <h1 class="display-5 fw-bold text-primary">24/7 Expert Support</h1>
+                <p class="lead text-dark">Our dedicated team is available around the clock to keep your hosting
+                  worry-free and seamless.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<!--Card-Section1-->
+
+<div class="div3">
+  <section class="py-5" style="background: url('./images/bgh1.jpg') no-repeat center center/cover;">
+    <div class="container text-center">
+      <p class="text-success fw-semibold">Plan and Pricing</p>
+      <h2 class="fw-bold text-dark mb-5">Dedicated Hosting for Maximum Power and Performance</h2>
+
+      <div class="row g-4">
+        <!-- Standard Plan -->
+        <div class="col-md-4">
+          <div class="card shadow p-4 h-100">
+            <div class="mx-auto mb-3">
+              <div class="rounded-circle d-flex justify-content-center align-items-center"
+                style="background-color: #FF6B35; width: 80px; height: 80px;">
+                <i class="fas fa-globe text-white fs-3"></i>
+              </div>
+            </div>
+            <h5 class="fw-bold">Standard Plan</h5>
+            <p class="text-muted">Ideal for small to medium-sized businesses or websites.</p>
+            <h3 class="fw-bold">$49<small class="fs-6">/Month</small></h3>
+            <ul class="list-unstyled text-start small mt-3">
+              <li><strong>Processor:</strong> Intel Xeon E3</li>
+              <li><strong>RAM:</strong> 16 GB DDR4</li>
+              <li><strong>Storage:</strong> 2 x 1TB HDD</li>
+              <li><strong>Bandwidth:</strong> Unlimited</li>
+              <li><strong>IP:</strong> 1 Free Dedicated IP</li>
+              <li><strong>Support:</strong> 24/7 Expert Assistance</li>
+            </ul>
+            <button class="btn btn-success mt-3">Order Now</button>
+          </div>
+        </div>
+
+        <!-- Advanced Plan -->
+        <div class="col-md-4">
+          <div class="card shadow p-4 h-100">
+            <div class="mx-auto mb-3">
+              <div class="rounded-circle d-flex justify-content-center align-items-center"
+                style="background-color: #2ECC71; width: 80px; height: 80px;">
+                <i class="fas fa-server text-white fs-3"></i>
+              </div>
+            </div>
+            <h5 class="fw-bold">Advanced Plan</h5>
+            <p class="text-muted">Perfect for high-traffic websites and resource-intensive applications.</p>
+            <h3 class="fw-bold">$99<small class="fs-6">/Month</small></h3>
+            <ul class="list-unstyled text-start small mt-3">
+              <li><strong>Processor:</strong> Intel Xeon E5</li>
+              <li><strong>RAM:</strong> 32 GB DDR4</li>
+              <li><strong>Storage:</strong> 2 x 1TB SSD RAID 1</li>
+              <li><strong>Bandwidth:</strong> Unlimited</li>
+              <li><strong>IP:</strong> 3 Free Dedicated IPs</li>
+              <li><strong>Support:</strong> 24/7 Expert Assistance</li>
+            </ul>
+            <button class="btn btn-success mt-3">Order Now</button>
+          </div>
+        </div>
+
+        <!-- Enterprise Plan -->
+        <div class="col-md-4">
+          <div class="card shadow p-4 h-100">
+            <div class="mx-auto mb-3">
+              <div class="rounded-circle d-flex justify-content-center align-items-center"
+                style="background-color: #FF6B35; width: 80px; height: 80px;">
+                <i class="fas fa-hand-holding-usd text-white fs-3"></i>
+              </div>
+            </div>
+            <h5 class="fw-bold">Enterprise Plan</h5>
+            <p class="text-muted">Built for mission-critical projects and enterprise-grade applications.</p>
+            <h3 class="fw-bold">$149<small class="fs-6">/Month</small></h3>
+            <ul class="list-unstyled text-start small mt-3">
+              <li><strong>Processor:</strong> Dual Intel Xeon Gold</li>
+              <li><strong>RAM:</strong> 64 GB DDR4</li>
+              <li><strong>Storage:</strong> 2 x 2TB NVMe SSD RAID 1</li>
+              <li><strong>Bandwidth:</strong> Unlimited</li>
+              <li><strong>IP:</strong> 5 Free Dedicated IPs</li>
+              <li><strong>Support:</strong> 24/7 Expert Assistance</li>
+            </ul>
+            <button class="btn btn-success mt-3">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!--Card Section2-->
+
+<div class="div4">
+  <section class="py-5" style="background: #ecf1e7;">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h6 class="text-success">Why Choose Dedicated Server Hosting?</h6>
+        <h2 class="fw-bold text-dark">Unmatched Features for Unbeatable Performance</h2>
+      </div>
+      <div class="row g-4">
+
+        <!--Card 1 : Top-tier performance-->
+        <div class="col-md-4">
+          <div class="card selectable-card p-3 text-center">
+            <div class="mb-3">
+              <i class="fas fa-tachometer-alt fa-2x text-primary mb-3"></i>
+            </div>
+            <h5 class="fw-bold">Top-tier performance</h5>
+            <p class="text-muted small">
+              Experience top-tier performance with dedicated resources ensuring maximum speed and reliability for your
+              website.
+            </p>
+          </div>
+        </div>
+
+        <!--Card 2: Complete Control-->
+        <div class="col-md-4">
+          <div class="card selectable-card p-3 text-center">
+            <i class="fas fa-server fa-2x text-success mb-3"></i>
+            <h5 class="fw-bold">Complete Control</h5>
+            <p class="text-muted small">
+              Enjoy full root access to customize your server environment according to your specific needs and
+              preferences.
+            </p>
+          </div>
+        </div>
+
+        <!--Card 3: Scalable Solutions-->
+        <div class="col-md-4">
+          <div class="card selectable-card p-3 text-center">
+
+            <i class="fas fa-layer-group fa-2x text-warning mb-3"></i>
+
+            <h5 class="fw-bold">Scalable Solutions</h5>
+            <p class="text-muted small">
+              Our hosting plans grow with your business. Upgrade or downgrade your plan effortlessly as your needs
+              change.
+            </p>
+          </div>
+        </div>
+
+
+        <!-- card4: 24/7 Priority Support-->
+        <div class="col-md-4">
+          <div class="card selectable-card p-3 text-center">
+            <i class="fas fa-headset fa-2x text-danger mb-3"></i>
+            <h5 class="fw-bold">24/7 Priority Support</h5>
+            <p class="text-muted small">
+              Get round-the-clock assistance from our expert support team. We’re here to help you anytime, anywhere.
+            </p>
+          </div>
+        </div>
+
+        <!--Card5: Free Migration Assistance-->
+        <div class="col-md-4">
+          <div class="card selectable-card p-3 text-center">
+            <i class="fas fa-exchange-alt fa-2x text-info mb-3"></i>
+            <h5 class="fw-bold">Free Migration Assistance</h5>
+            <p class="text-muted small">
+              Our team will handle your website migration to ensure a seamless transition with zero downtime.
+            </p>
+          </div>
+        </div>
+
+        <!--Card6: Robust Security-->
+        <div class="col-md-4">
+          <div class="card selectable-card p-3 text-center">
+            <i class="fas fa-shield-alt fa-2x text-primary mb-3"></i>
+            <h5 class="fw-bold">Robust Security</h5>
+            <p class="text-muted small">
+              Protect your data with advanced security including DDoS protection, firewalls, and regular security
+              audits.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!--Blue background screen-->
+<div class="div5">
+  <section class="section-dark">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-md-6">
+          <h2 class="fw-bold mb-4">Compare Our Dedicated <br> Hosting Solutions</h2>
+          <p class="mb-3"><span class="feature-check"> Full Root Access:</span> Complete server control and
+            customization.</p>
+          <p class="mb-3"><span class="feature-check"> Uptime Guarantee:</span> Reliable performance with minimal
+            downtime.</p>
+          <p class="mb-3"><span class="feature-check"> Advanced Security Features:</span> Safeguard your data from
+            threats.</p>
+          <p class="mb-3"><span class="feature-check"> High-Performance Hardware:</span> Optimized for speed and
+            efficiency.</p>
+          <p class="mb-0"><span class="feature-check"> Scalable Resources:</span> Expand server capacity as needed.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="p-4 card-highlight shadow text-white">
+            <h5 class="fw-bold mb-4">Managed Dedicated Server</h5>
+            <ul class="list-unstyled">
+              <li> cPanel Premier 100 Included Free*</li>
+              <li> Free Website Migration</li>
+              <li> cPanel, WHM and SSH Root Access</li>
+              <li> Automatic Backups</li>
+              <li> OS Choices Available</li>
+            </ul>
+            <a href="#" class="btn btn-light mt-3 px-4 py-2 fw-semibold">
+              Get Managed Dedicated Server →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Support Section -->
+
+<div class="div6">
+  <section class="section-light">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <small class="selectable-card text-success fw-semibold">Safe & Streamlined</small>
+          <h2 class="fw-bold mt-2">Get Real-Time Support</h2>
+          <p class="mb-4">
+            Hosting statistics provide insights into the performance, reliability, and usage trends of your website. Key
+            metrics such as uptime, speed, and resource usage help you monitor the health of your hosting environment.
+          </p>
+          <a href="#" class="support-btn btn">Get Support</a>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="selectable-card text-center p-4 bg-white rounded shadow-sm">
+                <h4 class="fw-bold mb-1">95%</h4>
+                <small class="text-success">Satisfaction Rate</small>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="selectable-card text-center p-4 bg-white rounded shadow-sm">
+                <h4 class="fw-bold mb-1">25+</h4>
+                <small>Data Centers</small>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="selectable-card text-center p-4 bg-white rounded shadow-sm">
+                <h4 class="fw-bold mb-1">150+</h4>
+                <small>Team Members</small>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="selectable-card text-center p-4 bg-white rounded shadow-sm">
+                <h4 class="fw-bold mb-1">250+</h4>
+                <small>Support Entries</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!--os-->
+
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-2">Operating Systems for Your VPS</h2>
+    <p class="text-muted mb-4">Customize Your VPS With The Operating System That Best Suits Your Needs.</p>
+
+    <div class="row justify-content-center g-3">
+      <!-- Ubuntu -->
+      <div class="col-6 col-md-2">
+        <div class="card border-0 shadow-sm selectable-card text-center py-3 h-100 active">
+          <img src="./images/ubuntu.jpg" class="mx-auto" width="40" alt="Ubuntu" />
+          <div class="card-body p-0">
+            <p class="mt-2 mb-0">Ubuntu</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fedora -->
+      <div class="col-6 col-md-2">
+        <div class="card border-0 shadow-sm selectable-card text-center py-3 h-100">
+          <img src="./images/Fedora.jpg" class="mx-auto" width="40" alt="Fedora" />
+          <div class="card-body p-0">
+            <p class="mt-2 mb-0">Fedora</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Debian -->
+      <div class="col-6 col-md-2">
+        <div class="card border-0 shadow-sm selectable-card text-center py-3 h-100">
+          <img src="./images/Debian.jpg" class="mx-auto" width="40" alt="Debian" />
+          <div class="card-body p-0">
+            <p class="mt-2 mb-0">Debian</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CentOS -->
+      <div class="col-6 col-md-2">
+        <div class="card border-0 shadow-sm selectable-card text-center py-3 h-100">
+          <img src="./images/CentOS.jpg" class="mx-auto" width="40" alt="CentOS" />
+          <div class="card-body p-0">
+            <p class="mt-2 mb-0">CentOS</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- WordPress -->
+      <div class="col-6 col-md-2">
+        <div class="card border-0 shadow-sm selectable-card text-center py-3 h-100">
+          <img src="./images/WordPress.jpg" class="mx-auto" width="40" alt="WordPress" />
+          <div class="card-body p-0">
+            <p class="mt-2 mb-0">WordPress</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- AlmaLinux -->
+      <div class="col-6 col-md-2">
+        <div class="card border-0 shadow-sm selectable-card text-center py-3 h-100">
+          <img src="./images/AimaLinux.jpg" class="mx-auto" width="40" alt="AlmaLinux" />
+          <div class="card-body p-0">
+            <p class="mt-2 mb-0">AlmaLinux</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- View All Button -->
+    <div class="mt-4">
+      <a href="#" class="btn btn-success px-4">View All</a>
+    </div>
+  </div>
+</section>
+
+
+<!--Testimonial section-->
+
+<div class="div8">
+  <section class="testimonial-section py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">What Our Customers Are Saying</h2>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-1 d-none d-md-block">
+          <div class="testimonial-nav left">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="testimonial-card text-center p-3 shadow-sm">
+            <p class="mb-3">Lorem ipsum dolor sit amet con secter dipiscing elit, sed do eiusmod tempor...</p>
+            <img src="./images/man1.jpg" alt="Client" class="client-img mb-3">
+            <h6 class="mb-0 fw-bold">Rizwan Joseph</h6>
+            <small class="text-muted">Co-Founder</small>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="testimonial-card text-center p-3 shadow-sm">
+            <p class="mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur...</p>
+            <img src="./images/women2.jpg" alt="Client" class="client-img mb-3">
+            <h6 class="mb-0 fw-bold">Alexandra Jorden</h6>
+            <small class="text-muted">Chief Executive</small>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="testimonial-card text-center p-3 shadow-sm">
+            <p class="mb-3">Lorem ipsum dolor sit amet con secter dipiscing elit, sed do eiusmod tempor...</p>
+            <img src="./images/man2.jpg" alt="Client" class="client-img mb-3">
+            <h6 class="mb-0 fw-bold">Anthony Clark</h6>
+            <small class="text-muted">Director</small>
+          </div>
+        </div>
+
+        <div class="col-md-1 d-none d-md-block">
+          <div class="testimonial-nav right">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+
+<!-- Partners -->
+<section class="partners text-center">
+  <div class="container">
+    <div class="row justify-content-center align-items-center g-3">
+      <div class="col-auto"><img src="./images/Googlecloud.svg" alt="Google Cloud">
+      </div>
+      <div class="col-auto"><img src="./images/digitalocean.svg" alt="DigitalOcean">
+      </div>
+      <div class="col-auto"><img src="./images/vultr.jpg" alt="VULTR"></div>
+      <div class="col-auto"><img src="./images/malcare.jpg" alt="Malcare"></div>
+      <div class="col-auto"><img src="./images/cloudflare.svg" alt="Cloudflare"></div>
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row align-items-center mb-5">
+      <div class="col-md-8">
+        <div class="call-us-box text-white">
+          <i class="fa-brands fa-whatsapp whatsapp"></i>
+          Have Questions? Call <span class="text-warning">+01 800 123 4560</span>
+        </div>
+      </div>
+      <div class="col-md-4 text-md-end mt-3 mt-md-0">
+        <button class="btn-call">Call Us Now</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 footer-logo mb-4">
+        <div class="mt-3">
+          <a href="https://facebook.com" class="text-white me-3 fs-5"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://youtube.com" class="text-white me-3 fs-5"><i class="fab fa-youtube"></i></a>
+          <a href="https://linkedin.com" class="text-white me-3 fs-5"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://instagram.com" class="text-white fs-5"><i class="fab fa-instagram"></i></a>
+        </div>
+
+      </div>
+      <div class="col-md-2">
+        <h6>Hosting</h6>
+        <ul>
+          <li><a href="#">Web Hosting</a></li>
+          <li><a href="#">Reseller Hosting</a></li>
+          <li><a href="#">VPS Hosting</a></li>
+          <li><a href="#">Dedicated Hosting</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h6>About</h6>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Legal</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h6>Support</h6>
+        <ul>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Report Abuse</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 contact-info">
+        <h6>Contact</h6>
+        <p><i class="fas fa-map-marker-alt"></i> 180 Flinders St, Melbourne Victoria, 3000 Australia</p>
+        <p><i class="fas fa-phone-alt"></i> +01 800 123 4560</p>
+        <p><i class="fas fa-envelope"></i> info@nestify.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const cards = document.querySelectorAll(".selectable-card");
+
+    cards.forEach((card) => {
+      card.addEventListener("click", function () {
+        // Remove active from all
+        cards.forEach((c) => c.classList.remove("active"));
+        // Add active to clicked one
+        this.classList.add("active");
+      });
+    });
+  });
+  <!--OS-->
+  document.addEventListener("DOMContentLoaded", function () {
+    const cards = document.querySelectorAll(".selectable-card");
+
+    cards.forEach(card => {
+      card.addEventListener("click", function () {
+        cards.forEach(c => c.classList.remove("border-success", "active"));
+        this.classList.add("border-success", "active");
+      });
+    });
+  });
+</script>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

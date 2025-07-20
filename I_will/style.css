@@ -1,0 +1,284 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.facebook-icon {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.facebook-icon i {
+    color: #1877F2;
+    font-size: 18px;
+}
+
+.navbar-top {
+    background-color: #0d1257;
+    padding: 8px 0;
+}
+
+.navbar-top a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navbar-top i {
+    margin-right: 5px;
+}
+
+.hero-section {
+    background-image: url('./images/lap_hero2.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+    color: #fff;
+}
+
+.text-content {
+    padding: 40px;
+    margin-left: 0;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.text-content h1 {
+    color: #0d1257;
+}
+
+.selectable-card input[type="radio"] {
+    display: none;
+}
+
+.selectable-card label {
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 20px;
+    display: block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.selectable-card input[type="radio"]:checked + label {
+    border-color: #198754;
+    box-shadow: 0 0 10px rgba(25, 135, 84, 0.5);
+}
+
+.selectable-card label img {
+    max-width: 60px;
+    margin-bottom: 10px;
+}
+
+.selectable-card label span {
+    display: block;
+    font-weight: 600;
+    color: #333;
+}
+
+.selectable-card.active {
+    border: 2px solid #198754;
+    box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+.section-dark {
+    background-color: #032339;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.section-light {
+    background-color: #f5f7f2;
+    padding: 60px 0;
+}
+
+.feature-check {
+    color: #00c16e;
+    font-weight: 500;
+}
+
+.card-highlight {
+    background-color: #22c55e;
+    color: white;
+    border-radius: 12px;
+}
+
+.highlight-box {
+    border: 2px solid #00c16e;
+    border-radius: 12px;
+}
+
+.support-btn {
+    background-color: #22c55e;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-weight: 500;
+}
+
+.client-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-section {
+    background: #f4f6ef;
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-card.active {
+    border: 1.5px solid #f5625d;
+}
+
+.testimonial-card img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.testimonial-nav.left {
+    left: 30px;
+}
+
+.testimonial-nav.right {
+    right: 30px;
+}
+
+.partners {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.partners img {
+    max-height: 35px;
+    opacity: 0.8;
+    transition: 0.3s ease;
+}
+
+.partners img:hover {
+    opacity: 1;
+}
+
+.footer {
+    background-color: #011c39;
+    color: white;
+    padding: 60px 0 40px;
+}
+
+.footer h6 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #d1d1d1;
+}
+
+.footer .contact-info i {
+    color: #22c55e;
+    margin-right: 8px;
+}
+
+.footer-logo img {
+    height: 40px;
+}
+
+.call-us-box {
+    background: #022744;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.call-us-box .whatsapp {
+    color: #22c55e;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.btn-call {
+    background: #22c55e;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-weight: 500;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .navbar-top .d-flex {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .navbar-top .social-icons {
+        justify-content: start !important;
+        margin-top: 5px;
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .text-content {
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .client-img {
+        width: 80px;
+        height: 80px;
+    }
+}

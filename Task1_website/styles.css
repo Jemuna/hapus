@@ -1,0 +1,24 @@
+body {
+  background-color: #000;
+  background-image:
+    linear-gradient(to right, rgba(0, 183, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 183, 255, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+h1{
+  color:white;
+}
+p{
+  Color:white;
+}
+.bg{
+  background-image: url("/assets/g-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
